@@ -3,29 +3,30 @@
 
 ##### 目录
 
-+ │  pipeline.conf：**需要修改的配置文件，相关说明见[0]**
-  │  tools.py ：各种文件读取写入函数
-  │  train.py：入口，直接运行即可，或者python train.py,**文件说明[2]**
++ │  pipeline.conf
+  │  tools.py
+  │  train.py
 
   ├─data
   │  ├─dev
-  │  │      train_pipeline.conf :保存训练和测试的相关参数，**不用修改**
+  │  │      train_pipeline.conf 
   │  │      
   │  └─raws
-  │          merge3_v1.json:**放入**需要训练的原始数据，**必须为json格式的文件，格式说明见[1]**
+  │          merge3_v1.json
   │          
   ├─dataset
-  │  │  transformer_series.py：数据的DataLoader和DataSet,包含数据的载入和清洗
+  │  │  transformer_series.py
   │          
   │      
   ├─model
-  │      bert_linear.py：模型
+  │      bert_linear.py
   │      
   └─utils
-          dataset_merge_and_shuffle.py：数据打乱和划分
-          mysql_util.py： mysql查询和更新
+          dataset_merge_and_shuffle.py
+          mysql_util.py
           samples_generate.py
           _utils.py
+
 
 +  [0] pipeline.conf 说明
 
