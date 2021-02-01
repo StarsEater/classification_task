@@ -2,45 +2,6 @@
 ### 分类任务工程说明
 
 ##### 目录
-
-+ │  pipeline.conf
-
-  │  tools.py
-  
-  │  train.py
-
-  ├─data
-  
-  │  ├─dev
-  
-  │  │      train_pipeline.conf 
-  
-  │  │      
-  
-  │  └─raws
-  
-  │          merge3_v1.json
-  
-  │          
-  ├─dataset
-  
-  │  │  transformer_series.py
-  
-  │          
-  │      
-  ├─model
-  
-  │      bert_linear.py
-  
-  │      
-  └─utils
-  \
-          dataset_merge_and_shuffle.py
-          mysql_util.py
-          samples_generate.py
-          _utils.py
-
-
 +  [0] pipeline.conf 说明
 
   + ```
