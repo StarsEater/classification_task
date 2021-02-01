@@ -1,0 +1,60 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 FEA0-8493
+C:\USERS\85313\DESKTOP\CLASSIFICATION_TASK
+│  pipeline.conf
+│  README
+│  res.txt
+│  tools.py
+│  train.py
+│  
+├─.idea
+│  │  .gitignore
+│  │  classification_task.iml
+│  │  deployment.xml
+│  │  misc.xml
+│  │  modules.xml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          
+├─data
+│  ├─dev
+│  │      train_pipeline.conf
+│  │      
+│  └─raws
+│          merge3_v1.json
+│          
+├─dataFormatExamples
+│      json_example_lines.json
+│      
+├─dataset
+│  │  transformer_series.py
+│  │  
+│  ├─degree1
+│  │      devset
+│  │      raw.json
+│  │      testset
+│  │      trainset
+│  │      
+│  └─type1
+│          devset
+│          raw.json
+│          testset
+│          trainset
+│          
+├─evaluation
+│      evalute_v1.py
+│      __init__.py
+│      
+├─model
+│      bert_linear.py
+│      __init__.py
+│      
+└─utils
+        dataset_merge_and_shuffle.py
+        mysql_util.py
+        samples_generate.py
+        _utils.py
+        __init__.py
+        
